@@ -1,0 +1,45 @@
+div#footer {
+    width: 100%;
+    background: black;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+div#footer #footer-meta {
+    clear: both;
+    height: 5em;
+    overflow: hidden;
+}
+div#footer #footer-container {
+    max-width: 59.16667em;
+}
+div#footer #footer-container {
+    max-width: 83.33333em;
+    height: inherit;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div#footer #footer-container #footer-storelocator {
+    height: 3em;
+    margin-top: 1.18182em;
+    padding-left: 3em;
+    background: url('http://demandware.edgesuite.net/aalw_prd/on/demandware.static/Sites-converse-Site/-/default/v1397479245160/images/sprites_icon_image-s9d2962c8fa.png') 0 -1158px no-repeat;
+
+    line-height: 3em;
+    float: left;
+}
+div#footer #footer-container #footer-storelocator a {
+    color: inherit;
+}
+a {
+    color: #333;
+    outline: medium none;
+    overflow: hidden;
+    text-decoration: none;
+}
+div#footer #footer-links {
+    height: inherit;
+    float: right;
+}

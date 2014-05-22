@@ -1,0 +1,189 @@
+#header header {
+    width: 100%;
+    max-width: 83.41667em;
+    height: 6.66667em;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+
+
+}
+#header {
+    height: 6.66667em;
+    position: relative;
+    background: black;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#overlay-area {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: 9999;
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+#wrapper {
+    background: none repeat scroll 0 0 #fff;
+    border: 0 solid #fff;
+    margin: auto;
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+element.style {
+    visibility: hidden;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    line-height: 11px;
+    font-family: arial;
+    font-size: 11px;
+    white-space: nowrap;
+    width: auto;
+    overflow: hidden;
+    display: none;
+}
+a {
+    color: #333;
+    outline: medium none;
+    overflow: hidden;
+    text-decoration: none;
+}
+.primary-logo {
+    width: 11.08333em;
+    height: 1.5em;
+    position: absolute;
+    background-image: url('../images/gSpotHandyCraftsLogo.png');
+    left: 50%;
+    font-size: inherit;
+    top: 2.58333em;
+    margin: 0;
+    margin-left: -5.54167em;
+}
+
+.visually-hidden {
+    border: 0 none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+#search-button {
+    float: right;
+    margin-right: 6%;
+    font-size: .83333em;
+    background: transparent;
+    color: #fbfbf9;
+    height: 8em;
+    line-height: 8em;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 1.66667em;
+    padding-right: 1.66667em;
+    display: inline-block;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin-right: 24px;
+}
+#search-button:after {
+    background: url('http://demandware.edgesuite.net/aalw_prd/on/demandware.static/Sites-converse-Site/-/default/v1397260325616/images/sprites_header_footer-s1238a817e2.png') -90px -130px no-repeat transparent;
+    top: 25px;
+    content: "";
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    margin-right: -24px;
+}
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+#mini-cart.mini-cart-empty {
+    float: right;
+    font-size: .83333em;
+    background: transparent;
+    color: #fbfbf9;
+    height: 8em;
+    line-height: 8em;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 1.66667em;
+    padding-right: 1.66667em;
+    display: inline-block;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin-right: 24px;
+}
+element.style {
+    display: none;
+}
+#mini-cart.mini-cart-empty:after {
+    background: url('http://demandware.edgesuite.net/aalw_prd/on/demandware.static/Sites-converse-Site/-/default/v1397260325616/images/sprites_header_footer-s1238a817e2.png') -163px 0 no-repeat transparent;
+    top: 25px;
+    content: "";
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0;
+    margin-right: -24px;
+}
+#menu-utility-user {
+    margin-left: 2%;
+}
+#menu-utility-user {
+    display: inline-block;
+    height: 100%;
+}
+#account-info-box {
+    white-space: nowrap;
+    font-size: .83333em;
+    background: transparent;
+    color: #fbfbf9;
+    height: 8em;
+    line-height: 8em;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 1.66667em;
+    padding-right: 1.66667em;
+    display: inline-block;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin-left: 24px;
+}
+ #account-info-box:before {
+    background: url('../images/sprites_header_footer-s1238a817e2.png') -60px -130px no-repeat transparent;
+    top: 25px;
+    content: "";
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    margin-left: -24px;
+}
